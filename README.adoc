@@ -1,4 +1,4 @@
-= ProxyChains ver. 4.2.0 README
+= ProxyChains ver. 4.3.0 README
 
 image:https://travis-ci.org/haad/proxychains.svg?branch=master["Build Status", link="https://travis-ci.org/haad/proxychains"]
 
@@ -33,13 +33,13 @@ is currently the only known affected program.
 
 === Using release version
 
-*Proxychains-4.2.0* are available with pkgsrc to everyone using it on _Linux_,
+*Proxychains-4.3.0* are available with pkgsrc to everyone using it on _Linux_,
 _NetBSD_, _FreeBSD_, _OpenBSD_, _DragonFlyBSD_ or _Mac OS X_. You just need to install
 pkgsrc-wip repository and run
   make install
 in a wip/proxychains directory.
 
-You can find out more about pkgsrc on link:www.pkgsrc.org[pkgsrc] and about pkgsrc-wip on
+You can find out more about pkgsrc on link:http://www.pkgsrc.org[pkgsrc] and about pkgsrc-wip on
 link:http://pkgsrc-wip.sourceforge.net[Pkgsrc-wip homepage]
 
 === Installing on Mac OS X with homebrew
@@ -103,7 +103,7 @@ it supports SOCKS4, SOCKS5 and HTTP CONNECT proxy servers.
   dynamic order (smart exclude dead proxies from chain)
 * You can use it with any TCP client application, even network scanners
   yes, yes - you can make portscan via proxy (or chained proxies)
-  for example with Nmap scanner by fyodor (www.insecire.org/nmap).
+  for example with Nmap scanner by fyodor (www.insecure.org/nmap).
 ----
   proxychains nmap -sT -PO -p 80 -iR  (find some webservers through proxy)
 ----
